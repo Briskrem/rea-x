@@ -1,0 +1,11 @@
+.Pokedex{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: auto;
+    border: 2px solid yellow;
+}
